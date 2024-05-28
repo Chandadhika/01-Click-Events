@@ -16,6 +16,7 @@ function passwordGenerator(num) {
   return password;
 }
 
+// trigger on single-click
 passwordBtnEl.on('dblclick', function () {
   var newPassword = passwordGenerator(15);
   passwordDisplayEl.text(newPassword);
